@@ -28,7 +28,7 @@ function guardar(){
       .then((result) => console.log(result))
       .catch((error) => console.error(error));
 }
-
+//eje
 function cargar(resultado){
     let transformado = JSON.parse(resultado);
     var salida="";
